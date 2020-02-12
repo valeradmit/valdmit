@@ -1,0 +1,89 @@
+html {
+  margin: 0;
+  padding: 0;
+}
+
+@font-face {
+  font-family: 'Gotham Pro';
+  src: url('../font/GothamPro.woff2') format('woff2'),
+    url('../font/GothamPro.woff') format('woff');
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Gotham Pro';
+  src: url('../font/GothamPro-Bold.woff2') format('woff2'),
+    url('../font/GothamPro-Bold.woff') format('woff');
+  font-weight: 700;
+  font-style: normal;
+}
+
+.card {
+  margin-top: 250px;
+  font-family: 'Gotham Pro';
+  box-shadow: 0 5px 5px 1px rgba(23, 24, 25, 0.05);
+}
+
+.label {
+  width: 335px;
+  height: 242px;
+  background-image: url(../img/Layer121X.png);
+  position: relative;
+}
+
+.main_image {
+  margin: 10px 0 0 21px;
+}
+
+.title1 {
+  font-size: 15px;
+  line-height: 20px;
+  text-transform: uppercase;
+  color: #fff;
+  font-weight: 700;
+  position: absolute;
+  bottom: 10px;
+  left: 20px;
+}
+
+.description {
+  width: 335px;
+  height: 98px;
+  background-color: #fff;
+}
+
+.description_inside {
+  padding-top: 15px;
+  margin-left: 21px;
+}
+
+.text1{
+  color: #48494a;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  margin-bottom: 14px;
+  letter-spacing: 0px;
+}
+
+.price {
+  font-size: 18px;
+  color: #161617;
+  background-color: #fffbd7;
+  padding: 7px 10px 4px 5px;
+  margin-right: 6px;
+}
+
+.text2 {
+  font-weight: 700;
+}
+
+.value {
+  font-weight: 700;
+}
+
+.notes {
+  font-size: 12px;
+  color: #80848d;
+}
